@@ -1,0 +1,63 @@
+Proyecto conversión
+
+1.- Investigar números Maya
+  
+    Aceptar: Buscar información referente a los números maya
+    
+    Rechazar: No buscar información
+ 
+    Mitigar: Investigar lo necesario sin indagar en operaciones básicas
+
+    Transferir: Pedirle a alguien que lo investigue por ti para que posteriormente te lo explique
+
+
+2.- Convertir número arabigo a número Maya por texto
+
+    Aceptar: Comenzar con las actividades planeadas 
+
+    Rechazar: No hacer nada
+
+    Mitigar: Buscar soluciones alternas a las actividades
+
+    Transferir: Pedirle a alguien más que lo haga por mí
+
+
+3.- Convertir número arabigo a Maya por representación gráfica
+
+    Aceptar: Comenzar con las actividades planeadas
+
+    Rechazar: No hacer nada
+
+    Mitigar: Hacer lo justo y necesario sin indagar mucho en el diseño de la interfaz
+
+    Transferior: Pedirle a alguien que haga la interfaz por mí al igual que el código
+
+4.- Conversión número Maya a número arabigo
+
+     Aceptar: Comenzar con las actividades planeadas
+
+     Rechazar: No hacer nada
+
+     Mitigar: Hacer una representación muy básica con poco diseño
+
+     Transferir: Pedirle a alguien que haga el código por mí
+
+5.- Tutorial
+
+    Aceptar: Redactar boceto, escribir y probar tutorial
+
+    Rechazar: No hacer un tutorial
+
+    Mitigar: Dar instrucciones muy explicadas para evitar malentendidos
+ 
+    Transferir: Pedirle a alguien que redacte el tutorial por mí 
+
+6.- Registro
+
+    Aceptar: Comenzar con las actividades planeadas
+
+    Rechazar: No hacer un registro de actividades
+
+    Mitigar: Dar pocos detalles del trabajo
+
+    Transferior: Pedirle a alguien que haga la actividad de registro por mí
