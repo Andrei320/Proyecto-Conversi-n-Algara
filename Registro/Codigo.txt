@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>Conversion Decimal/Maya</title>
+
+    <script>
+      function operacion(op) 
+        {
+            //Funcion de conversion
+            num = parseInt(document.getElementById("id_num").value);
+
+            document.getElementById("id_sec3").value = op.toString();
+            document.getElementById("id_sec2").value = op.toString();
+            document.getElementById("id_sec1").value = op.toString();
+
+            if(op == 'MostrarC')
+            {  
+            //Seccion 3
+            Rnum3 = num % 400;
+            Snum3 = num / 400;
+            if(Math.trunc(Snum3) <= 0)
+            {
+                document.getElementById("id_sec3").value = " ";
+            }
+            else 
+            {
+                document.getElementById("id_sec3").value = Snum3.toString();
+            }
+            //Seccion 2
+            Rnum2 = num % 20;
+            Snum2 = Rnum3 / 20;
+            if(Snum3 == 1)
+            {
+                Snum2 = Math.trunc(Snum2);
+                document.getElementById("id_sec2").value = Snum2.toString();
+            }
+
+            else if(Math.trunc(Snum2) <= 0)
+            {
+                document.getElementById("id_sec2").value = " ";
+            }
+            else 
+            {
+                Snum2 = Math.trunc(Snum2);
+                document.getElementById("id_sec2").value = Snum2.toString();
+            }
+
+            //Seccion 1
+            Rnum1 = num % 1;
+            Snum1 = Rnum2 / 1;
+    
+            document.getElementById("id_sec1").value = Snum1.toString();
+            }
+            
+        }
+
+        function ConversionCI(OpCI)
+        {
+            //Funcion de imagenes
+
+            var imagen3 = " "
+            var imagen2 = " "
+            var imagen1 = " "
+
+            if(OpCI == 'Mostrar')
+            {
+                //Seccion 3
+            switch(Snum3)
+            {
+                case 1: 
+                imagen3 = 'img/NumeroM1.png'; 
+                imagen2 = 'img/NumeroM0.png';
+                imagen1 = 'img/NumeroM0.png';
+                break;
+            }
+
+            //Seccion 2
+           
+            if(Snum2 == 1)
+            {
+                imagen2 = 'img/NumeroM1.png';
+            }
+
+            if(Snum2 == 2)
+            {
+                imagen2 = 'img/NumeroM2.png';
+            }
+
+            if(Snum2 == 3)
+            {
+                imagen2 = 'img/NumeroM3.png';
+            }
+
+            if(Snum2 == 4)
+            {
+                imagen2 = 'img/NumeroM4.png';
+            }
+
+            if(Snum2 == 5)
+            {
+                imagen2 = 'img/NumeroM5.png';
+            }
+
+            if(Snum2 == 6)
+            {
+                imagen2 = 'img/NumeroM6.png';
+            }
+
+            if(Snum2 == 7)
+            {
+                imagen2 = 'img/NumeroM7.png';
+            }
+
+            if(Snum2 == 8)
+            {
+                imagen2 = 'img/NumeroM8.png';
+            }
+
+            if(Snum2 == 9)
+            {
+                imagen2 = 'img/NumeroM9.png';
+            }
+
+            if(Snum2 == 10)
+            {
+                imagen2 = 'img/NumeroM10.png';
+            }
+
+            if(Snum2 == 11)
+            {
+                imagen2 = 'img/NumeroM11.png';
+            }
+            
+            if(Snum2 == 12)
+            {
+                imagen2 = 'img/NumeroM12.png';
+            }
+            
+            if(Snum2 == 13)
+            {
+                imagen2 = 'img/NumeroM13.png';
+            }
+            
+            if(Snum2 == 14)
+            {
+                imagen2 = 'img/NumeroM14.png';
+            }
+            
+            if(Snum2 == 15)
+            {
+                imagen2 = 'img/NumeroM15.png';
+            }
+
+            if(Snum2 == 16)
+            {
+                imagen2 = 'img/NumeroM16.png';
+            }
+            
+            if(Snum2 == 17)
+            {
+                imagen2 = 'img/NumeroM17.png';
+            }
+            
+            if(Snum2 == 18)
+            {
+                imagen2 = 'img/NumeroM18.png';
+            }
+
+            if(Snum2 == 19)
+            {
+                imagen2 = 'img/NumeroM19.png';
+            }
+            
+            
+            
+            //Seccion 1
+            if (Snum1 == 0)
+            {
+                imagen1 = 'img/NumeroM0.png';
+            }
+
+            if (Snum1 == 1)
+            {
+                imagen1 = 'img/NumeroM1.png';
+            }
+
+            if (Snum1 == 2)
+            {
+                imagen1 = 'img/NumeroM2.png';
+            }
+
+            if (Snum1 == 3)
+            {
+                imagen1 = 'img/NumeroM3.png';
+            }
+
+            if (Snum1 == 4)
+            {
+                imagen1 = 'img/NumeroM4.png';
+            }
+
+            if (Snum1 == 5)
+            {
+                imagen1 = 'img/NumeroM5.png';
+            }
+
+            if (Snum1 == 6)
+            {
+                imagen1 = 'img/NumeroM6.png';
+            }
+
+            if (Snum1 == 7)
+            {
+                imagen1 = 'img/NumeroM7.png';
+            }
+
+            if (Snum1 == 8)
+            {
+                imagen1 = 'img/NumeroM8.png';
+            }
+
+            if (Snum1 == 9)
+            {
+                imagen1 = 'img/NumeroM9.png';
+            }
+
+            if (Snum1 == 10)
+            {
+                imagen1 = 'img/NumeroM10.png';
+            }
+
+            if (Snum1 == 11)
+            {
+                imagen1 = 'img/NumeroM11.png';
+            }
+
+            if (Snum1 == 12)
+            {
+                imagen1 = 'img/NumeroM12.png';
+            }
+
+            if (Snum1 == 13)
+            {
+                imagen1 = 'img/NumeroM13.png';
+            }
+
+            if (Snum1 == 14)
+            {
+                imagen1 = 'img/NumeroM14.png';
+            }
+
+            if (Snum1 == 15)
+            {
+                imagen1 = 'img/NumeroM15.png';
+            }
+
+            if (Snum1 == 16)
+            {
+                imagen1 = 'img/NumeroM16.png';
+            }
+
+            if (Snum1 == 17)
+            {
+                imagen1 = 'img/NumeroM17.png';
+            }
+
+            if (Snum1 == 18)
+            {
+                imagen1 = 'img/NumeroM18.png';
+            }
+
+            if (Snum1 == 19)
+            {
+                imagen1 = 'img/NumeroM19.png';
+            }
+
+            document.getElementById("ImageS3").src=imagen3
+            document.getElementById("ImageS2").src=imagen2
+            document.getElementById("ImageS1").src=imagen1   
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    Numero <input type="number" name="num" id="id_num"><br><br>
+    <input type="button" name="Mostrar" value="Mostrar" id="id_mostrar" onclick="ConversionCI('Mostrar')">
+    <input style="margin-left: 50px;" type="button" name="Mostrar Conversion" value="MostrarC" id="id_mostrarC" onclick="operacion('MostrarC')"><br><br>
+
+    Seccion 3 <input type="number" name="sec3" id="id_sec3"><br><br>
+    Seccion 2 <input type="number" name="sec2" id="id_sec2"><br><br>
+    Seccion 1 <input type="number" name="sec3" id="id_sec1"><br><br>    
+    
+    <img id="ImageS3" src="img/Vacio.png"><br>  
+    <img id="ImageS2" src="img/Vacio.png"><br>
+    <img id="ImageS1" src="img/Vacio.png">
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+Entrada 1 (23/01/2021) 5:12PM
+
+La funcion de conversion funciono correctamente despues de varios intentos
+fallidos. Procedere a intentar hacer que funcione con imagenes.
+
+Progeso de interfaz= 0% (Todavia no iniciada)
+-----------------------------------------------------------------------------------------
+Entrada 2 (23/01/2021) 5:24PM (Prueba 1 de funcion con imagen)
+
+La primera prueba para que el programa funcionase con imagen ha fracasado.
+
+Entrada 3 (23/01/2021) 5:30PM (Prueba 2 de funcion con imagen)
+
+La segunda prueba resulto en un exito a medias, ya que muestra la imagen
+como se queria pero borra toda la interfaz.
+-----------------------------------------------------------------------------------------
+Entrada 4 (23/01/2021) 5:41PM 
+
+Se ha agregado otro boton de forma que uno de ellos muestre la conversion
+en imagen y otro boton unicamente sirva como prueba para revisar si la conversion
+ha funcionado de forma correcta
+-----------------------------------------------------------------------------------------
+Entrada 5 (23/01/2021) 5:49PM (Prueba 3 de funcion con imagen)
+
+La tercera prueba resulto en otro exito a medias, esto debido a que muestra
+la conversion con imagen, pero borra toda la interfaz.
+-----------------------------------------------------------------------------------------
+Entrada 6 (23/01/2021) 6:21PM (Prueba 4 de funcion con imagen)
+
+La cuarta prueba resulto con exito a medias, esto debido a que unicamente se
+ha probado con una sola cifra. Se comenzara a trabajar para que funcione con mas
+cifras
+-----------------------------------------------------------------------------------------
+Entrada 7 (23/01/2021) 6:54 (Prueba 5 de funcion con imagen)
+
+La quinta prueba resulto con exito y finalmente se termino la funcion de
+imagenes. Se procedera a hacer pruebas para revisar que funcione
+-----------------------------------------------------------------------------------------
+Entrada 8 (23/01/2021) 07:07PM (Prueba 6 de funcion con imagen)
+
+Durante las pruebas se encontró un error al mostrar una imagen en la sección 2
+cuando este es igual a 16
+-----------------------------------------------------------------------------------------
+Entrada 9 (23/01/2021) 07:20PM (Prueba 7 y final de funcion con imagen)
+
+La conversión mediante imagenes resulto exitosa después de 7 pruebas. Se
+comenzará a trabajar con el diseño y con la función inversa.
+-----------------------------------------------------------------------------------------
+Entrada 10 (23/01/2021) 08:10PM (Prueba 1 de menu desplegable)
+
+Se intentó crear un menú desplegable pero el resultado fue un fallo total
+-----------------------------------------------------------------------------------------
+Entrada 11 (23/01/2021) 8:46PM (Prueba 2 de menu desplegable)
+
+El segundo intento de crear un menu desplegable fue un completo fracaso
+-----------------------------------------------------------------------------------------
+Entrada 12 (23/01/2021) 9:11PM 
+
+Se aplazo el diseño de la página principal para comenzar a trabajar en la 
+conversión de números Mayas a Decimal
+-----------------------------------------------------------------------------------------
+Entrada 13 (23/01/2021) 10:08PM
+
+Se logró implementar los botones para el número 400. Se seguirá trabajando
+para los demás números
+-----------------------------------------------------------------------------------------
+Entrada 14 (24/01/2021) 09:48AM (Prueba de contador de clicks)
+
+Con la intencion de minimizar los botones para la interfaz se comenzo a 
+trabajar en un boton que contase los clicks que este recibe
+-----------------------------------------------------------------------------------------
+Entrada 15 (24/01/2021) 11:21AM 
+
+Se abandono la idea de hacer la conversion por medio de botones y se comenzara
+a buscar una alternativa
+-----------------------------------------------------------------------------------------
+Entrada 16 (24/01/2021) 12:06PM
+
+Despues de varios intentos de buscar una alternativa, seguimos sin resultados
+-----------------------------------------------------------------------------------------
+Entrada 17 (24/01/2021) 12:27PM (Prueba 1 imagen con rangeslider)
+
+Se intento hacer que una imagen se mostrase cuando el valor de un rangeslider
+fuera X, pero fracaso
+-----------------------------------------------------------------------------------------
+Entrada 18 (24/01/2021) 02:16PM (Prueba 2 imagen con rangeslider)
+
+La prueba fue un exito a medias debido a que solo funciona con la cifra de 400
+se comenzara a trabajar en implementar las demas cifras 
+-----------------------------------------------------------------------------------------
+Entrada 19 (24/01/2021) 3:04PM (Prueba 3 imagen con rangeslider)
+
+La prueba con la seccion 2 fue exitosa. Se procedera a trabajar con la seccion 1
+-----------------------------------------------------------------------------------------
+Entrada 20 (24/01/2021) 03:13PM (Prueba 4 imagen con rangeslider)
+
+La prueba con la seccion 1 fue exitosa y se da por finalizada esta parte del 
+proyecto
+-----------------------------------------------------------------------------------------
+Entrada 21 (24/01/2021) 03:19PM (Prueba 1 para sumatoria)
+
+La sumatoria resulto en exito.
+-----------------------------------------------------------------------------------------
+Entrada 22 (24/01/2021) 03:28PM
+
+Se ha terminado la programacion de las funciones, botones e interfaz.

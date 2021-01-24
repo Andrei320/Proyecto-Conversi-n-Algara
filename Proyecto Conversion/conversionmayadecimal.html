@@ -1,0 +1,535 @@
+<html>
+<head>
+<title>Conversion de Maya-Decimal</title>
+<link rel="stylesheet" href="estilos.css">
+
+<script>
+    
+
+    //Seccion 3
+    function change3(click)
+        {
+            total = parseInt(document.getElementById("id_total").value);
+            total3 = 0;
+            total2 = 0;
+            total1 = 0;
+            x3 = document.getElementById("myRange3");
+            defaultVal3 = x3.defaultValue;
+            currentVal3 = x3.value;            
+            imagen3 = " ";
+            imagen2 = " ";
+            imagen1 = " ";
+
+            if(currentVal3 == 1)
+            {
+                imagen3 = 'img/NumeroM1.png'; 
+                imagen2 = 'img/NumeroM0.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                
+                total3 = currentVal3 * 400;
+            }
+
+            else if(currentVal3 == 0)
+            {
+                imagen3 = 'img/Vacio.png'; 
+                imagen2 = 'img/Vacio.png';
+                imagen1 = 'img/Vacio.png';   
+
+                total3 = currentVal3 * 0;
+            }
+
+                document.getElementById("ImageS3").src=imagen3
+                document.getElementById("ImageS2").src=imagen2
+                document.getElementById("ImageS1").src=imagen1
+        }
+
+        //Seccion 2
+        function change2(click)
+        {
+            x2 = document.getElementById("myRange2");
+            defaultVal2 = x2.defaultValue;
+            currentVal2 = x2.value; 
+
+            if(currentVal2>0)
+            {
+                imagen3 = 'img/Vacio.png';
+                total3 = currentVal3 * 0;
+                
+            }
+
+            if(currentVal2==0 && currentVal1==0)
+            {
+                imagen2 = 'img/Vacio.png';
+                imagen1 = 'img/Vacio.png';
+                total2 = currentVal2 * 0;
+                total1 = currentVal1 * 0;
+            }
+
+            else if(currentVal2 == 0)
+            {
+                imagen2 = 'img/Vacio.png';
+                total2 = currentVal2 * 0;
+            }
+
+            if(currentVal2 == 1 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM1.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 1)
+            {
+                imagen2 = 'img/NumeroM1.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 2 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM2.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 2)
+            {
+                imagen2 = 'img/NumeroM2.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 3 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM3.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 3)
+            {
+                imagen2 = 'img/NumeroM3.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 4 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM4.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 4)
+            {
+                imagen2 = 'img/NumeroM4.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 5 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM5.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 5)
+            {
+                imagen2 = 'img/NumeroM5.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 6 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM6.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 6)
+            {
+                imagen2 = 'img/NumeroM6.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 7 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM7.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 7)
+            {
+                imagen2 = 'img/NumeroM7.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 8 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM8.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 8)
+            {
+                imagen2 = 'img/NumeroM8.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 9 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM9.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 9)
+            {
+                imagen2 = 'img/NumeroM9.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 10 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM10.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 10)
+            {
+                imagen2 = 'img/NumeroM10.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 11 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM11.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 11)
+            {
+                imagen2 = 'img/NumeroM11.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 12 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM12.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 12)
+            {
+                imagen2 = 'img/NumeroM12.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 13 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM13.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 13)
+            {
+                imagen2 = 'img/NumeroM13.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 14 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM14.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 14)
+            {
+                imagen2 = 'img/NumeroM14.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 15 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM15.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 15)
+            {
+                imagen2 = 'img/NumeroM15.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 16 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM16.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 16)
+            {
+                imagen2 = 'img/NumeroM16.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 17 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM17.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 17)
+            {
+                imagen2 = 'img/NumeroM17.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 18 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM18.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 18)
+            {
+                imagen2 = 'img/NumeroM18.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 19 && currentVal1==0)
+            {
+                imagen2 = 'img/NumeroM19.png';
+                imagen1 = 'img/NumeroM0.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+            else if(currentVal2 == 19)
+            {
+                imagen2 = 'img/NumeroM19.png'; 
+                total2 = currentVal2 * 20;
+            }
+
+                document.getElementById("ImageS3").src=imagen3
+                document.getElementById("ImageS2").src=imagen2
+                document.getElementById("ImageS1").src=imagen1
+        }
+
+        //Seccion 1
+        function change1(click)
+        {
+            x1 = document.getElementById("myRange1");
+            defaultval1 = x1.defaultValue;
+            currentVal1 = x1.value;
+
+            if(currentVal1>0 && currentVal2==0)
+            { 
+                imagen3 = 'img/Vacio.png';
+                imagen2 = 'img/Vacio.png';
+                total1 = currentVal1 * 0; 
+            }
+
+            if(currentVal1==0 && currentVal2==0)
+            {
+                imagen3 = 'img/Vacio.png';
+                imagen2 = 'img/Vacio.png';
+                imagen1 = 'img/Vacio.png';
+                total1 = currentVal1 * 0;
+            }
+
+
+            if(currentVal1 == 1)
+            {
+                imagen1 = 'img/NumeroM1.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 2)
+            {
+                imagen1 = 'img/NumeroM2.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 3)
+            {
+                imagen1 = 'img/NumeroM3.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 4)
+            {
+                imagen1 = 'img/NumeroM4.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 5)
+            {
+                imagen1 = 'img/NumeroM5.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 6)
+            {
+                imagen1 = 'img/NumeroM6.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 7)
+            {
+                imagen1 = 'img/NumeroM7.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 8)
+            {
+                imagen1 = 'img/NumeroM8.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 9)
+            {
+                imagen1 = 'img/NumeroM9.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 10)
+            {
+                imagen1 = 'img/NumeroM10.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 11)
+            {
+                imagen1 = 'img/NumeroM11.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 12)
+            {
+                imagen1 = 'img/NumeroM12.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 13)
+            {
+                imagen1 = 'img/NumeroM13.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 14)
+            {
+                imagen1 = 'img/NumeroM14.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 15)
+            {
+                imagen1 = 'img/NumeroM15.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 16)
+            {
+                imagen1 = 'img/NumeroM16.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 17)
+            {
+                imagen1 = 'img/NumeroM17.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 18)
+            {
+                imagen1 = 'img/NumeroM18.png';
+                total1 = currentVal1 * 1;
+            }
+
+            if(currentVal1 == 19)
+            {
+                imagen1 = 'img/NumeroM19.png';
+                total1 = currentVal1 * 1;
+            }
+
+                document.getElementById("ImageS3").src=imagen3
+                document.getElementById("ImageS2").src=imagen2
+                document.getElementById("ImageS1").src=imagen1
+
+        }
+
+
+        function totalR()
+        {
+                total = total3 + total2 + total1;
+                document.getElementById('id_total').value = total.toString();
+        }
+</script>
+
+</head>
+<body background="img/Fondo.jpg">
+
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo"><img src="img/Logo.jpg" alt="Logo" width="100" height="100"></a>
+            <span class="menu-icon">Ver menú</span>
+        
+            <nav class="navigation">
+                <ul class="show">
+                    <li><a href="paginaprincipal.html">Convertir de Decimal a Maya</a></li>
+                    <li><a href="#">Convertir de Maya a Decimal</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="containerc">
+    <div class="noticia">
+        <img class="izquierda" src="img/Vacio.png" id="ImageS3">
+        <aside>
+            <input type="range" min="0" max="1" value="0" id="myRange3">
+            <input type="button" value="Probar" onclick="change3()"><br>
+        </aside>
+        <div class="reset"></div>
+      </div>
+
+
+      
+      <div class="noticia">
+        <img class="izquierda" src="img/Vacio.png" id="ImageS2" alt="Vacio">
+        <aside>
+            <input type="range" min="0" max="19" value="0" id="myRange2">
+            <input type="button" value="Probar" onclick="change2()">
+        </aside>
+        <div class="reset"></div>
+      </div>
+
+
+      
+      <div class="noticia">
+        <img class="izquierda" src="img/Vacio.png" id="ImageS1" alt="Vacio">
+        <aside>
+            <input type="range" min="0" max="19" value="0" id="myRange1">
+            <input type="button" value="Probar" onclick="change1()">
+        </aside>
+        <div class="reset"></div>
+      </div>
+
+
+
+      <div class="noticia">
+      Total <input type="number" value="0" name="Total" id="id_total"><br><br>
+      <input type="button" value="Total" onclick="totalR()">
+      </div>
+    </div>
+</body>
+</html>
